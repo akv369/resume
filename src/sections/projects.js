@@ -1,11 +1,7 @@
 import './common.scss';
 
 function Projects() {
-  return (
-    <div className="section">
-        Projects
-    </div>
-  );
+  return <div className="section">Projects</div>;
 }
 
 export default Projects;
