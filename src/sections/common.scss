@@ -1,0 +1,8 @@
+@import './variables.scss';
+
+.section{
+    .candidate-name{
+        font-size: $BIG_HEADING_FONT;
+        line-height: $STD_LINE_HEIGHT;
+    }
+}
