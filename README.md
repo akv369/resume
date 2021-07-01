@@ -2,7 +2,7 @@
 
 This is a resume template for students/freshers. Output can be seen <a href="https://akv369-resume.netlify.app/">here</a>.
 
-## How to use
+### `How to use`
 
 Clone</br>
 Change your details in src>utils.js</br>
@@ -20,10 +20,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
 
 ### `npm run build`
 
