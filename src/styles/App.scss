@@ -2,7 +2,7 @@
 
 .resume{
   color: $DARK_COLOR;
-  padding: 80px 6%;
+  padding: 80px 5%;
   font-size: $LARGE_FONT;
   font-family: 'Open Sans', sans-serif;
   strong{
@@ -11,10 +11,9 @@
   }
   .row{
     .col-8{
-      padding-right: 80px;
+      padding-right: 50px;
       .project-list{
           line-height: $STD_LINE_HEIGHT;
-          margin-top: -15px;
           font-weight: 501;
           span{
               font-weight: 400;
@@ -23,11 +22,14 @@
               }
               &:last-child{
                   &:after{
-                      content: " etc";
+                      content: " etc.";
                   }
               }
           }
       }
+    }
+    .col-4{
+      margin-top: -130px;
     }
   }
 }

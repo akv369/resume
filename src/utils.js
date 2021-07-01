@@ -7,14 +7,23 @@ const experienceData = [
     name: 'LrnEd Technologies Pvt. Ltd.',
     designation: 'Software Development Intern',
     started: 'March 2021',
-    work: ['Developed user assessment dashboard at jobs.outdefine.com', 'Added several necessary features in sync with serverless backend', 'Partnered with product team on Figma for design enhancements', 'Helped increase user time on outdefine.com by 4 minutes'],
+    work: [
+      'Developed user assessment dashboard at jobs.outdefine.com',
+      'Added several functionalities in sync with serverless backend',
+      'Partnered with product team for Figma design enhancements',
+      'Helped increase user time on outdefine.com by 4 minutes',
+    ],
   },
   {
     name: 'FilterShalla',
     designation: 'Technical Head',
     started: 'July 2021',
     ended: 'Aug 2021',
-    work: ['Handled all technical requirements of new brand', 'Developed and Hosted bootstraped based website from scratch', 'Regularly updated new products on the page with latest designs'],
+    work: [
+      'Handled all technical requirements of new brand',
+      'Developed and Hosted bootstraped based website from scratch',
+      'Regularly updated new products on the page with latest designs',
+    ],
   },
 ];
 
@@ -30,7 +39,7 @@ const projectData = [
       'Fully Featured Demat Account',
       'News & Best performers data for Stock Recommendation',
     ],
-    techs: ['NodeJS', 'ReactJS', 'MongoDB', ' Stock APIs', 'Google FireBase'],
+    techs: ['NodeJS', 'ReactJS', 'MongoDB', 'Google FireBase'],
   },
   {
     name: 'Burger Builder',
@@ -50,7 +59,7 @@ const projectData = [
     link: 'https://kalexamhai.github.io/',
     started: 'Nov 2019',
     work: [
-      'Previous Year Questions website for B.Tech students of SMVDU',
+      'Previous Year Questions website for students of SMVDU',
       'Started with core HTML/CSS',
       'Current Version 3.0 has 500+ Users',
       'Smoothest User Experience',
@@ -59,7 +68,7 @@ const projectData = [
   },
 ];
 
-const otherProjects = ['Fantasy Cricket', 'Expense Manager', 'Amazon Price Monitor'];
+const otherProjects = ['Fantasy Cricket', 'Expensify', 'Price Monitor'];
 
 const educationData = [
   {
@@ -92,17 +101,19 @@ const skillsData = [
   'Express',
   'Redux',
   'BS4',
+  'FireBase',
+  'Heroku',
+  'Git',
   'C/C++',
   'JavaScript',
   'Python',
   'DSA',
   'Web Scraping',
-  'Data Processing'
 ];
 
 const achievementData = [
   'Young Scientist Award for Millennium Village Model',
-  'First Prize in Web Development in Titiksha: Tech Fest',
+  'First Prize in Web Development in Titiksha',
   'First Prize in Cover Shot Photography',
 ];
 

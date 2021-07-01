@@ -9,7 +9,7 @@ import ExtraCurr from './sections/extracurr';
 import { Row, Col } from 'react-bootstrap';
 
 import './styles/App.scss';
-import utils from './utils'
+import utils from './utils';
 
 function App() {
   return (
@@ -20,15 +20,15 @@ function App() {
           <WorkExp />
           <Projects />
           <div className="project-list">
-                Other Projects:{' '}
-                {utils.otherProjects.map((project) => {
-                  return (
-                    <span key={project} class="list-item">
-                      {project}
-                    </span>
-                  );
-                })}
-              </div>
+            Other Projects:{' '}
+            {utils.otherProjects.map((project) => {
+              return (
+                <span key={project} class="list-item">
+                  {project}
+                </span>
+              );
+            })}
+          </div>
         </Col>
         <Col xs={4}>
           <Education />
