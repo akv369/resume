@@ -1,3 +1,14 @@
+## Resume Template
+
+This is a resume template for students/freshers. Output can be seen on https://akv369-resume.netlify.app/".
+
+## How to use
+
+Clone</br>
+Change your details in src>utils.js</br>
+Build</br>
+Convert HTML to PDF
+
 ## Available Scripts
 
 In the project directory, you can run:
