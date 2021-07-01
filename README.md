@@ -1,6 +1,6 @@
 ## Resume Template
 
-This is a resume template for students/freshers. Output can be seen on https://akv369-resume.netlify.app/".
+This is a resume template for students/freshers. Output can be seen <a href="https://akv369-resume.netlify.app/">here</a>.
 
 ## How to use
 
