@@ -1,29 +1,10 @@
-import './common.scss';
+import '../styles/common.scss';
+import utils from '../utils';
+import { BsCalendar } from 'react-icons/bs';
+import { GoLocation } from 'react-icons/go';
 
 function Education() {
-  const data = [
-    {
-      name: 'Shri Mata Vaishno Devi University',
-      type: 'B. Tech',
-      ended: 2022,
-      location: 'Katra',
-      score: 7.3,
-    },
-    {
-      name: 'S. D. Adarsh Vidyalaya',
-      type: 'XII',
-      ended: 2018,
-      location: 'Gurugram',
-      score: 83.8,
-    },
-    {
-      name: 'S. D. Adarsh Vidyalaya',
-      type: 'X',
-      ended: 2016,
-      location: 'Gurugram',
-      score: 9,
-    },
-  ];
+  const data = utils.educationData;
   return (
     <div className="section">
       <div className="section-header">Education</div>
@@ -34,11 +15,18 @@ function Education() {
           return (
             <div key={index} className="data-item education">
               <div className="item-header">
-                {item.type} from {item.name}
+                <div className="edu-type">{item.type}</div>
+                <div className="edu-name">{item.name}</div>
               </div>
               <div className="item-sub-header">
-                <span>{item.ended}</span>
-                <span>{item.location}</span>
+                <span>
+                  <BsCalendar />
+                  {item.ended}
+                </span>
+                <span>
+                  <GoLocation />
+                  {item.location}
+                </span>
               </div>
               <div className="item-list">Score: {scoreString}</div>
             </div>

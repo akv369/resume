@@ -1,7 +1,8 @@
-import './common.scss';
+import '../styles/common.scss';
+import utils from '../utils';
 
 function Achievements() {
-  const data = ['hey', 'ill', 'add'];
+  const data = utils.achievementData;
   return (
     <div className="section">
       <div className="section-header">Achievements</div>

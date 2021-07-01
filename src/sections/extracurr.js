@@ -1,7 +1,8 @@
-import './common.scss';
+import '../styles/common.scss';
+import utils from '../utils';
 
 function ExtaCurr() {
-  const data = ['hey', 'ill', 'add'];
+  const data = utils.extraCurricularData;
   return (
     <div className="section">
       <div className="section-header">Extra Curricular Activities</div>

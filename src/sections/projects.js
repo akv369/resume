@@ -1,28 +1,9 @@
-import './common.scss';
+import '../styles/common.scss';
+import utils from '../utils';
+import { FiExternalLink } from 'react-icons/fi';
 
 function Projects() {
-  const data = [
-    {
-      name: 'Stonks',
-      started: 'Jan 2021',
-      ended: 'May 2021',
-      work: ['hey', 'i', 'dont', 'know'],
-      techs: ['hey', 'i', 'know'],
-    },
-    {
-      name: 'Burger Builder',
-      started: 'Mar 2020',
-      ended: 'Apr 2020',
-      work: ['hey', 'i', 'dont', 'know'],
-      techs: ['hey', 'i', 'know'],
-    },
-    {
-      name: 'Kal Exam Hai',
-      started: 'Nov 2019',
-      work: ['hey', 'i', 'dont', 'know'],
-      techs: ['hey', 'i', 'know'],
-    },
-  ];
+  const data = utils.projectData;
   return (
     <div className="section">
       <div className="section-header">Projects</div>
@@ -31,7 +12,9 @@ function Projects() {
           return (
             <div key={index} className="data-item project">
               <div className="item-header">
-                <span>{item.name}</span>
+                <a href={item.link || ''}>
+                  {item.name} {item.link ? <FiExternalLink /> : ''}
+                </a>
                 <span>{`(${item.started} - ${item.ended || 'Present'})`}</span>
               </div>
               <ul className="item-details">

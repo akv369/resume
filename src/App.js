@@ -8,7 +8,8 @@ import Achievements from './sections/achievements';
 import ExtraCurr from './sections/extracurr';
 import { Row, Col } from 'react-bootstrap';
 
-import './App.scss';
+import './styles/App.scss';
+import utils from './utils'
 
 function App() {
   return (
@@ -18,6 +19,16 @@ function App() {
         <Col xs={8}>
           <WorkExp />
           <Projects />
+          <div className="project-list">
+                Other Projects:{' '}
+                {utils.otherProjects.map((project) => {
+                  return (
+                    <span key={project} class="list-item">
+                      {project}
+                    </span>
+                  );
+                })}
+              </div>
         </Col>
         <Col xs={4}>
           <Education />

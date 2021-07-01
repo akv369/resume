@@ -1,21 +1,8 @@
-import './common.scss';
+import '../styles/common.scss';
+import utils from '../utils';
 
 function WorkExp() {
-  const data = [
-    {
-      name: 'LrnEd Technologies Pvt. Ltd.',
-      designation: 'Software Development Intern',
-      started: 'March 2021',
-      work: ['hey', 'i', 'dont', 'know'],
-    },
-    {
-      name: 'FilterShalla',
-      designation: 'Technical Head',
-      started: 'July 2021',
-      ended: 'Aug 2021',
-      work: ['hey', 'i', 'dont', 'know'],
-    },
-  ];
+  const data = utils.experienceData;
   return (
     <div className="section">
       <div className="section-header">Work Experience</div>
